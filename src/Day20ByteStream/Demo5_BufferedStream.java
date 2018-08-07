@@ -33,8 +33,8 @@ public class Demo5_BufferedStream
         /**
          * 如果关闭流,就会少一点字节
          */
-       /* bis.close();
-        bos.close();*/
+        bis.close();
+        bos.close();
 
     }
 }

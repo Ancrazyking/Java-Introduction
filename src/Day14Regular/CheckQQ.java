@@ -44,8 +44,8 @@ public class CheckQQ
     public static void main(String[] args)
     {
         //System.out.println(checkQQ("0123456"));
-        String regex = "[^1-9]\\d{10,12}";
-        System.out.println("l234567890122".matches(regex));
+        String regex = "[1-9]";
+        System.out.println("1".matches(regex));
 
 
         StringBuilder sb = new StringBuilder("Hello");

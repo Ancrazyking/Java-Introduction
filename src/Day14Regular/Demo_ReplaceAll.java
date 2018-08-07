@@ -7,9 +7,9 @@ package Day14Regular;
 public class Demo_ReplaceAll
 {
     public static void main(String[] args){
-        String s="wang1a2feng3";
+        String s="wang1a2fen3";
         String regex="[^0-9]{1,4}";
-        String newS=s.replaceAll(regex," ");
+        String newS=s.replaceAll(regex,"");
         System.out.println(newS);
     }
 }
